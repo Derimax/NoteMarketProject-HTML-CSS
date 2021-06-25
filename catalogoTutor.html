@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NoteMarket</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/16-scrollbar-styles-1.css">
+    <link rel="stylesheet" href="assets/css/16-scrollbar-styles.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/iframe.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Menu.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top shadow-sm navigation-clean-button" style="font-family: heebo;width: auto;">
+        <div class="container-fluid"><img src="assets/img/logo.png" style="width: 200px;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1" style="margin-top: 0px;">
+                <ul class="nav navbar-nav mr-auto" style="margin-top: -15px;">
+                    <li class="nav-item" role="presentation" style="color: rgb(0,0,0);"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contattaci</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Appunti</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Videolezioni</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Tutor</a></li>
+                </ul><span class="navbar-text actions"> <a class="login" href="#">Accedi</a><button class="btn btn-light action-button" data-bs-hover-animate="tada" type="button" style="background-color: #5c51d7;">Registrati</button></span></div>
+        </div>
+    </nav>
+    <div class="row row-cols-1 d-flex" style="width: auto;padding: 20px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;">
+        <div class="col-auto col-sm-auto col-md-12 col-lg-5 col-xl-5 offset-0" style="width: 100%;padding: 0px;padding-right: 0px;padding-left: 0px;padding-top: 0px;">
+            <div class="d-md-flex" style="width: 100%;height: 100%;padding: 0px;margin: 0px;padding-right: 0px;">
+                <div class="text-center text-sm-center" style="height: auto;background-color: rgb(246,246,246);width: 100%;padding: 17px;margin: 0px;margin-left: 0px;margin-right: 0px;margin-top: 0px;padding-left: 17px;">
+                    <div style="padding: 11px;padding-bottom: 0px;">
+                        <h1 class="text-sm-center text-md-center text-lg-left text-xl-left text-dark" style="color: rgb(255,255,255);font-family: Heebo, sans-serif;font-size: 2.9em;/*filter: blur(0px) contrast(99%) grayscale(0%) hue-rotate(0deg) invert(0%) sepia(0%);*/font-weight: 900;margin-top: 17px;margin-right: 0px;margin-left: 0 px;">Tutor</h1>
+                        <p class="text-sm-center text-md-center text-lg-left text-xl-left text-dark" style="color: rgb(255,255,255);font-family: Heebo, sans-serif;margin-left: 0px;margin-top: 13px;font-size: 19px;"><br>Cerca tra i tutor che fanno parte del nostro staff quello che fa per te!<br><br></p>
+                    </div>
+                    <div class="border rounded shadow d-lg-flex justify-content-lg-center align-items-lg-center" style="width: 100%;height: auto;margin: 0px;background-color: #e65a51;padding: 31px;margin-top: 0px;">
+                        <div id="mainContainer" style="width: 100%;">
+                            <div class="border rounded d-block justify-content-center" id="primo-filtro" style="width: 100%;height: auto;background-color: #ffffff;margin: 0px;margin-bottom: 20px;">
+                                <h1 style="font-family: Heebo, sans-serif;font-style: normal;font-weight: bold;font-size: 34px;padding: 0px;padding-top: 11px;color: #438e37;width: 100%;height: auto;">materia</h1>
+                                <div style="width: 100%;height: 150px;padding: 10px;margin: -2px;margin-top: 3px;margin-bottom: 35px;margin-right: 1px;padding-left: 16%;">
+                                    <div class="text-left float-left" style="width: 50%;">
+                                        <div class="custom-control custom-radio" style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-1"><label class="custom-control-label" for="formCheck-1">Italiano</label></div>
+                                        <div class="custom-control custom-radio" style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-1"><label class="custom-control-label" for="formCheck-1">Informatica</label></div>
+                                        <div class="custom-control custom-radio" style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-1"><label class="custom-control-label" for="formCheck-1">Economia</label></div>
+                                        <div class="custom-control custom-radio" style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-1"><label class="custom-control-label" for="formCheck-1">Diritto</label></div>
+                                        <div class="custom-control custom-radio" style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-1"><label class="custom-control-label" for="formCheck-1">Geografia</label></div>
+                                        <div class="custom-control custom-radio" style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-1"><label class="custom-control-label" for="formCheck-1">tutti</label></div>
+                                    </div>
+                                    <div class="text-left float-left" style="width: 50%;">
+                                        <div class="custom-control custom-radio"><input class="custom-control-input" type="radio" id="formCheck-2"><label class="custom-control-label" for="formCheck-2" style="font-family: Heebo, sans-serif;">Matematica</label></div>
+                                        <div class="custom-control custom-radio"><input class="custom-control-input" type="radio" id="formCheck-2"><label class="custom-control-label" for="formCheck-2" style="font-family: Heebo, sans-serif;">Inglese</label></div>
+                                        <div class="custom-control custom-radio"
+                                            style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-2"><label class="custom-control-label" for="formCheck-2">Storia</label></div>
+                                        <div class="custom-control custom-radio" style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-2"><label class="custom-control-label" for="formCheck-2">Biologia</label></div>
+                                        <div class="custom-control custom-radio" style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-2"><label class="custom-control-label" for="formCheck-2">Chimica</label></div>
+                                        <div class="custom-control custom-radio" style="font-family: Heebo, sans-serif;"><input class="custom-control-input" type="radio" id="formCheck-2"><label class="custom-control-label" for="formCheck-2">altro</label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-auto col-sm-auto col-lg-7 col-xl-7 offset-0" style="width: 100%;padding-right: 0px;padding-left: 10px;">
+            <div style="color: rgb(48,133,218);height: 100%;width: 100%;background-color: rgba(194,148,106,0);padding: 0px;">
+                <div style="width: auto;height: 100%;margin: 0px;background-color: rgba(179,179,179,0.12);">
+                    <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center align-items-sm-center justify-content-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                        style="background-color: rgba(114,89,213,0);width: 100%;height: 74px;padding: 8px;margin-top: 0px;">
+                        <div class="text-center shadow-sm d-flex justify-content-md-center" style="border-radius: 30px;background-color: rgb(15,123,1);padding: 6px;margin: 0px;width: 68%;height: 45px;color: rgb(67,142,55);"><input class="float-left" type="text" placeholder="Cerca..." style="border-style: none;margin-bottom: 0;margin-top: 0;/*height: 100%;*/background-color: #0f7b01;border-radius: 30px;padding: 8px;width: 89%;color: rgb(255,255,255);">
+                            <div
+                                class="text-center d-flex float-left d-sm-flex d-md-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-xl-center align-items-xl-center"
+                                data-bs-hover-animate="tada" style="width: 50px;height: 100%;background-color: rgba(255,254,251,0.21);border-radius: 100px;margin-left: 7px;color: rgb(255,214,0);"><i class="fa fa-search" style="margin: 11px;color: rgb(230,91,81);"></i></div>
+                    </div>
+                </div>
+                <div class="container scstyle-6 sc-overflow" style="background-color: #f6f6f6;width: 100%;height: auto;padding: 14px;">
+                    <div class="bg-light shadow" style="background-color: #1dcd24;width: 100%;height: 31%;margin-bottom: 14px;padding: 10px;">
+                        <div class="row" style="height: auto;width: auto;margin-right: -15px;">
+                            <div class="col-3 d-flex d-sm-flex align-items-center align-items-sm-center" style="height: auto;width: auto;padding: 0px;padding-left: 20px;padding-top: 10px;padding-bottom: 10px;"><img src="assets/img/3.jpg" style="max-width: 100%;"></div>
+                            <div class="col d-flex d-sm-flex justify-content-center justify-content-sm-center" style="width: auto;height: auto;">
+                                <div class="float-left" style="background-color: rgba(254,144,144,0);width: 90%;height: auto;padding: 5px;">
+                                    <div style="background-color: rgba(96,176,76,0);width: 100%;height: auto;">
+                                        <h2 class="text-dark float-left" style="font-weight: 800;width: 75%;font-family: Heebo, sans-serif;">Heading</h2>
+                                        <p class="text-dark d-inline-block" style="font-size: 15px;font-family: Heebo, sans-serif;margin-top: -5px;line-height: 20px;letter-spacing: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dapibus sed urna et dictum. Duis suscipit massa sem. Nulla nisi augue, ornare nec rutrum vel, eleifend quis magna.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light shadow" style="background-color: #1dcd24;width: 100%;height: 31%;margin-bottom: 14px;padding: 10px;">
+                        <div class="row" style="height: auto;width: auto;">
+                            <div class="col-3 d-flex d-sm-flex align-items-center align-items-sm-center" style="height: auto;width: auto;padding: 0px;padding-left: 20px;padding-top: 10px;padding-bottom: 10px;"><img src="assets/img/3.jpg" style="max-width: 100%;"></div>
+                            <div class="col d-flex d-sm-flex justify-content-center justify-content-sm-center" style="width: 70%;height: auto;">
+                                <div class="float-left" style="background-color: rgba(254,144,144,0);width: 90%;height: auto;padding: 5px;">
+                                    <div style="background-color: rgba(96,176,76,0);width: 100%;height: auto;">
+                                        <h2 class="text-dark float-left" style="font-weight: 800;width: 75%;font-family: Heebo, sans-serif;">Heading</h2>
+                                        <p class="text-dark d-inline-block" style="font-size: 15px;font-family: Heebo, sans-serif;margin-top: -5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dapibus sed urna et dictum. Duis suscipit massa sem. Nulla nisi augue, ornare nec rutrum vel, eleifend quis magna.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light shadow" style="background-color: #1dcd24;width: 100%;height: 31%;margin-bottom: 14px;padding: 10px;">
+                        <div class="row" style="height: auto;width: auto;">
+                            <div class="col-3 d-flex d-sm-flex justify-content-start align-items-center align-items-sm-center" style="height: auto;width: auto;padding: 0px;padding-left: 20px;padding-top: 10px;padding-bottom: 10px;"><img src="assets/img/3.jpg" style="max-width: 100%;"></div>
+                            <div class="col d-flex d-sm-flex justify-content-center justify-content-sm-center" style="width: 70%;height: auto;">
+                                <div class="float-left" style="background-color: rgba(254,144,144,0);width: 90%;height: auto;padding: 5px;">
+                                    <div style="background-color: rgba(96,176,76,0);width: 100%;height: auto;">
+                                        <h2 class="text-dark float-left" style="font-weight: 800;width: 75%;font-family: Heebo, sans-serif;">Heading</h2>
+                                        <p class="text-dark d-inline-block" style="font-size: 15px;font-family: Heebo, sans-serif;margin-top: -5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dapibus sed urna et dictum. Duis suscipit massa sem. Nulla nisi augue, ornare nec rutrum vel, eleifend quis magna.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light shadow" style="background-color: #1dcd24;width: 100%;height: 31%;margin-bottom: 14px;padding: 10px;">
+                        <div class="row" style="height: auto;width: auto;">
+                            <div class="col-3 d-flex d-sm-flex justify-content-start align-items-center align-items-sm-center" style="height: auto;width: auto;padding: 0px;padding-left: 20px;padding-top: 10px;padding-bottom: 10px;"><img src="assets/img/3.jpg" style="max-width: 100%;"></div>
+                            <div class="col d-flex d-sm-flex justify-content-center justify-content-sm-center" style="width: 70%;height: auto;">
+                                <div class="float-left" style="background-color: rgba(254,144,144,0);width: 90%;height: auto;padding: 5px;">
+                                    <div style="background-color: rgba(96,176,76,0);width: 100%;height: auto;">
+                                        <h2 class="text-dark float-left" style="font-weight: 800;width: 75%;font-family: Heebo, sans-serif;">Heading</h2>
+                                        <p class="text-dark d-inline-block" style="font-size: 15px;font-family: Heebo, sans-serif;margin-top: -5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dapibus sed urna et dictum. Duis suscipit massa sem. Nulla nisi augue, ornare nec rutrum vel, eleifend quis magna.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="bg-dark footer-basic" style="color: rgb(255,255,255);width: 100%;height: 208px;">
+        <footer style="color: rgb(255,255,255);width: 100%;min-width: 200px;">
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Contattaci</a></li>
+                <li class="list-inline-item"><a href="#">Condizioni d'uso</a></li>
+            </ul>
+            <p class="copyright">NoteMarket © 2020</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/sliderDurata.js"></script>
+</body>
+
+</html>
